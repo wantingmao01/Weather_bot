@@ -1,0 +1,74 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human? 
+
+- intent: weather
+  examples: |
+    - what's the weather
+    - what is the temperature today
+    - what is the temperature
+    - i want to know the temperature
+    - i want to know the weather of today
+    - tell me the weather forecast
+    - hows the weather today
+
+- intent: weather_for_location
+  examples: |
+    - what is the weather in [San Diego](location)
+    - what is the weather in [New York](location)
+    - weather of [LA] (location)
+    - Today's weather in [Chicago](location)
+    - [San Fransisco](location) weather
+    - Tell me weather of [Los Vegas](location)
+    - Can you tell me weather of [Seatlle](location)
+
+- intent: city_info
+  examples: |
+    - [San Diego](location)
+    - [New York](location)
+    - [LA](location)
+    - [Chicago](location)
+    - [San Fransisco](location)
+    - [Los Vegas](location)
+    - [Seattle](location)
+
+- intent: thanks
+  examples: |
+   - thanks
+   - thank you
+   - OK
